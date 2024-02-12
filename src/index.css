@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+.navbar {
+  height: 50px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aquamarine; */
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.SpaceContent {
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+  height: 100%;
+}
+.sideMenu {
+  height: 100%;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4px 20px 4px 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
